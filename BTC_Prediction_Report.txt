@@ -1,0 +1,51 @@
+==================================================
+          Cryptocurrency Fraud Detection (BTC)      
+==================================================
+
+Project Description:
+This project utilizes machine learning to predict fraudulent activity in
+Bitcoin transactions based on user-provided input data. The model outputs
+the likelihood of the transaction being categorized as illicit, normal,
+or unknown.
+
+--------------------------------------------------
+Input Details:
+--------------------------------------------------
+Address                                 : 111FJppFVhFYWPDagaAxp24U6zb7gAyv4
+Time step                               : 43
+first_block_appeared_in                 : 475877
+last_block_appeared_in                  : 475877
+lifetime_in_blocks                      : 0
+total_txs                               : 1
+first_sent_block                        : 0
+first_received_block                    : 475877
+btc_transacted_total                    : 0.00271949
+btc_sent_total                          : 0.0
+btc_received_total                      : 0.00271949
+fees_total                              : 0.00158326
+fees_as_share_total                     : 9.36e-7
+blocks_btwn_txs_total                   : 0
+blocks_btwn_input_txs_total             : 0
+blocks_btwn_output_txs_total            : 0
+num_addr_transacted_multiple            : 0
+transacted_w_address_total              : 1
+
+--------------------------------------------------
+Prediction Output:
+--------------------------------------------------
+Predicted Class: Unknown(Fraud)
+
+Probabilities:
+  Illicit(Fraud): 0.00%
+  Licit(Normal): 11.03%
+  Unknown(Fraud): 88.96%
+
+Short Description:
+The prediction is uncertain but leans towards fraudulent activity.
+Further investigation may be needed.
+
+==================================================
+Generated Report
+==================================================
+This report was generated using the BTC Fraud Detection Model.
+Report Date: 2025-06-27 12:11:08

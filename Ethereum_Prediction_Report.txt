@@ -1,0 +1,44 @@
+==================================================
+          Cryptocurrency Fraud Detection (Ethereum)      
+==================================================
+
+Project Description:
+This project utilizes machine learning to predict fraudulent activity in
+Ethereum transactions based on user-provided input data. The model outputs
+the likelihood of the transaction being categorized as illicit or normal.
+
+--------------------------------------------------
+Input Details:
+--------------------------------------------------
+Avg min between sent tnx                : 12709.07
+Avg min between received tnx            : 2958.44
+Time Diff between first and last (Mins) : 1218216.73
+Sent tnx                                : 94
+Received Tnx                            : 8
+Number of Created Contracts             : 0
+Unique Received From Addresses          : 5
+Unique Sent To Addresses                : 14
+total transactions (including tnx to create contract): 102
+total Ether sent                        : 3.08729702
+total ether received                    : 3.085478209
+Total ERC20 tnxs                        : 8
+Address                                 : 0x0002b44ddb1476db43c868bd494422ee4c136fed
+
+--------------------------------------------------
+Prediction Output:
+--------------------------------------------------
+Predicted Class: Illicit(Fraud)
+
+Probabilities:
+  Illicit(Fraud): 99.00%
+  Licit(Normal): 1.00%
+
+Short Description:
+The prediction indicates that the input data is most likely associated
+with fraudulent activity. Immediate investigation is recommended.
+
+==================================================
+Generated Report
+==================================================
+This report was generated using the ETH Fraud Detection Model.
+Report Date: 2025-06-27 12:10:10
