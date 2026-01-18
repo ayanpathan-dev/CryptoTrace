@@ -1,48 +1,144 @@
-📌 CryptoTrace — Real-Time Cryptocurrency Fraud Detection Tool
+# 📘 CryptoTrace – Real-Time Cryptocurrency Fraud Detection
 
-CryptoTrace is a real-time monitoring and analysis tool designed to track cryptocurrency transactions across major blockchains and detect suspicious or fraudulent activities using machine learning. It helps investigators, analysts, and security teams identify unusual patterns, generate detailed reports, and enhance blockchain forensics.
+An AI-powered blockchain forensics system designed to monitor and detect suspicious cryptocurrency transactions across Ethereum and Bitcoin networks.
 
-🚀 Key Features
-🔍 Real-Time Transaction Monitoring
-Tracks cryptocurrency transactions across supported blockchains like Bitcoin and Ethereum.
-Monitors peer-to-peer wallet interactions and exchange transactions.
+---
 
-🤖 AI-Powered Fraud Detection
-Uses ML models to identify anomalous transaction patterns.
-Flags suspicious activities based on frequency, value, and wallet behavior.
-Classifies transactions as legitimate or potentially fraudulent.
+## 🚀 Project Overview
 
-📊 Automated Reporting
-Generates clear, structured fraud reports.
-Supports export formats including TXT, CSV, and PDF.
-Includes predicted risk scores and pattern summaries.
+**CryptoTrace** is a real-time fraud detection tool developed for **Smart India Hackathon 2024 (SIH1783)**.
 
-🏗️ Tech Stack
+It helps investigators and analysts identify:
 
-Frontend: Tkinter, ttkbootstrap, Pillow (Python UI)
-Backend & ML: Python, scikit-learn, pandas, NumPy, joblib
-Blockchain: Bitcoin, Ethereum
-Database: SQLite
-Security: SHA256 hashing with hashlib
-Environment: Anaconda 
-Developed using Spyder / VS Code
+- Suspicious crypto wallets
+- Fraudulent transaction patterns
+- High-risk blockchain activity
 
-🔒 Why CryptoTrace?
-Helps track illicit crypto movement.
-Provides actionable data for investigations.
-Supports faster forensic analysis with detailed ML-based predictions.
-Enhances accuracy and reduces manual workload.
-Designed for extensibility and integration with external APIs.
+It uses **Machine Learning + Blockchain APIs + Cryptographic Verification** to flag and report fraudulent transactions.
 
-🛠️ Architecture Overview
-CryptoTrace consists of:
-A blockchain API fetcher
-A machine learning anomaly detection module
-A secure database layer
-A desktop UI for monitoring and report generation
+---
 
-📈 Planned Enhancements
-Multi-chain expansion
-More advanced AI models
-Live dashboard with graphs and risk scores
-API-based integration for enterprise tools
+## 🧠 Key Features
+
+- 🔍 Real-time monitoring of Bitcoin & Ethereum transactions
+- 🧮 Machine Learning based anomaly detection
+- 🔐 SHA-256 cryptographic hashing for data integrity
+- 📊 Risk scoring and classification of wallets
+- 📄 Automated fraud reports (CSV / PDF / JSON)
+- 🖥️ User-friendly Tkinter GUI interface
+
+---
+
+## 🏗️ System Architecture
+
+![Workflow](Screenshot/WorkFlow.png)
+
+---
+
+## 🛠️ Technology Stack
+
+| Layer | Technology |
+|------|-----------|
+| Frontend | Tkinter, ttkbootstrap, Pillow |
+| Backend | Python, scikit-learn, pandas, NumPy, joblib |
+| Blockchain | Ethereum, Bitcoin APIs |
+| Database | SQLite |
+| Security | Hashlib (SHA-256) |
+| Reporting | CSV, PDF, JSON |
+
+---
+
+## ⚙️ Workflow
+
+1. User inputs wallet address  
+2. System fetches blockchain transactions via API  
+3. Features are extracted from transactions  
+4. ML model predicts fraud probability  
+5. Suspicious wallets are flagged  
+6. Fraud reports are generated  
+
+---
+
+## 📊 Performance
+
+| Metric | CryptoTrace | Traditional Systems |
+|--------|------------|--------------------|
+| Accuracy | **99%** | 78% |
+| False Positive Rate | **5%** | 12% |
+| Processing Time | **5 ms / tx** | Slow |
+
+---
+
+## 📸 Application Screenshots
+
+### 🔐 Login Screen
+![Login](Screenshot/Login.png)
+
+### 📝 Registration Screen
+![Registration](Screenshot/Registeration.png)
+
+### 🏠 Home Screen
+![Home](Screenshot/Home.png)
+
+### 🔄 Transaction Module
+![Transaction](Screenshot/TransactionModule.png)
+
+### 🤖 ML Models Used
+![Models](Screenshot/TwoModels.png)
+
+### 💰 Bitcoin Fraud Detection
+![BTC](Screenshot/BitcoinFarudDetection.png)
+
+### ⛓️ Ethereum Fraud Detection
+![ETH](Screenshot/EtheriumFraudDetection.png)
+
+### ⚠️ Fraud Alert Output
+![Alert](Screenshot/FraudDetected.png)
+
+### 📉 Confusion Matrix (Ethereum)
+![Matrix](Screenshot/EtheriumConfusionMatrix.png)
+
+---
+
+## 🎯 Impact
+
+- Faster fraud investigations  
+- Assists law enforcement in crypto crime tracking  
+- Provides forensic-grade transaction logs  
+- Detects illicit crypto laundering patterns  
+
+---
+
+## 💰 Revenue Model
+
+- Subscription based updates  
+- Premium consulting & custom integrations  
+
+---
+
+## 🔮 Future Enhancements
+
+- Add Deep Learning models  
+- Expand to Solana & Binance Smart Chain  
+- Deploy as a web-based system  
+- Add real-time dashboards  
+
+---
+
+## 🏆 Developed By
+
+**Team ForensiX**  
+Karmaveer Bhaurao Patil College of Engineering, Satara
+
+**Contributors:**
+- Ayan Pathan  
+- Sharayu Patil  
+- Parth Muchandi  
+- Renu Patil  
+- Tarannum Shaikh  
+
+---
+
+## 📜 License
+
+For academic and research use.
